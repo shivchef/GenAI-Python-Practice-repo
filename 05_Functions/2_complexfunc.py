@@ -1,0 +1,14 @@
+def fetch_sales():
+    print("Fetching the sales data")
+def filter_valid_sales():
+    print("Filtering vaild sales data")
+def summerize_data():
+    print("summerizing sales data")
+
+def generate_report():
+    fetch_sales()
+    filter_valid_sales()
+    summerize_data()
+    print("Report is ready")
+
+generate_report()
